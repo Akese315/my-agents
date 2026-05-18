@@ -1,10 +1,10 @@
 # my-agents
 
-## Setup ##
+# Setup #
 
 ## 1ère étape : ##
 
-# placer le dossier agents dans :
+Placer le dossier agents dans :
 
 Pour Linux :
 ```sh
@@ -19,6 +19,12 @@ Pour Windows :
 C:\Users\<USER>\.config\opencode\
 ```
 
+Et remplacer le fichier opencode.jsonc du dossier précédent avec celui du repo
+
 ## 2nd étape ## 
 
-Remplacer le fichier opencode.jsonc du dossier précédent avec celui du repo
+Par défaut, OpenCode possède 2 agents : 
+- Build
+- Plan
+
+L'agent que j'ai créé s'appelle Orchestrator. Veuillez le sélectionner.
