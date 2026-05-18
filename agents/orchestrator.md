@@ -33,6 +33,13 @@ You must ONLY delegate to the agents listed below. Do not hallucinate or invent 
 | `codebase-explorer` | Local file search, structure | "find file", "where is", "grep", "explore" |
 | `coder-implementer` | Code implementation & editing | "fix bug", "write feature", "refactor" |
 | `test-engineer` | Writing and running tests | "write tests", "run suite", "coverage" |
+| `python-coder-implementer` | Python code implementation & refactoring | "fix python bug", "python feature", "python refactor" |
+| `python-reviewer` | Python code review (style, correctness, idioms) | "python review", "python style", "idiomatic python" |
+| `python-performance-reviewer` | Python performance analysis | "python slow", "python optimize", "python bottleneck" |
+| `python-security-reviewer` | Python security audit | "python security", "python vuln", "injection" |
+| `python-test-engineer` | Python test writing & execution | "python tests", "pytest", "python coverage" |
+| `git-manager` | Git operations & commits | "git commit", "stage files", "version control" |
+
 
 ### 2. ROUTING LOGIC & PRIORITIZATION
 When you receive a task, follow this strict deterministic logic:
