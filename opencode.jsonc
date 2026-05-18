@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "n8n-web": {
+      "type": "remote",
+      "url": "http://thor.sealix.eu:5678/mcp/web-searcher",
+      "enabled": true,
+    },
+  },
+  "autoupdate": "notify",
+  "enabled_providers": ["valmido"],
+  "disabled_providers": ["openai", "anthropic", "google", "groq", "mistral"],
+  "provider": {
+    "valmido": {
+      "name": "Valmido (vLLM Local)",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://thor.sealix.eu:8091/v1",
+        "apiKey": "", // Laisser vide si pas d'API key
+      },
+      "models": {
+        "GPT_OSS_120B": {
+          "name": "GPT-OSS-120B (vLLM)",
+          "id": "/models/GPT_OSS_120B_vLLM",
+          "contextLength": 32768, // Ajuste selon la limite de ton modèle
+        },
+      },
+    },
+  },
+}
