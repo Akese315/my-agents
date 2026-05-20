@@ -31,7 +31,7 @@ You must ONLY delegate to the agents listed below. Do not hallucinate or invent 
 | `rust-reviewer` | Rust code quality, lifetimes, FFI | "rust review", "borrow checker", "unsafe" |
 | `web-searcher` | Web research, factual verification | "search the web", "look up documentation" |
 | `codebase-explorer` | Local file search, structure | "find file", "where is", "grep", "explore" |
-| `coder-implementer` | Code implementation & editing | "fix bug", "write feature", "refactor" |
+| `C&Rust-coder-implementer` | Code implementation & editing | "fix bug", "write feature", "refactor" |
 | `test-engineer` | Writing and running tests | "write tests", "run suite", "coverage" |
 | `python-coder-implementer` | Python code implementation & refactoring | "fix python bug", "python feature", "python refactor" |
 | `python-reviewer` | Python code review (style, correctness, idioms) | "python review", "python style", "idiomatic python" |
