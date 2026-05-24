@@ -1,7 +1,7 @@
 ---
 description: Expert C performance reviewer
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.0
 steps: 20
 color: warning

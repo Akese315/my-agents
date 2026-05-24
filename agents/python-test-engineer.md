@@ -1,7 +1,7 @@
 ---
 description: Expert Python Test Engineer Agent (pytest, mocks, coverage)
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.1
 steps: 15
 color: "info"

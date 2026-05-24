@@ -1,7 +1,7 @@
 ---
 description: Web research agent — web_search, web_map, scraping via n8n
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.1
 steps: 15
 permission:

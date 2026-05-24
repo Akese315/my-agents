@@ -1,7 +1,7 @@
 ---
 description: Expert Codebase Explorer & Navigator
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.0
 steps: 15
 color: info

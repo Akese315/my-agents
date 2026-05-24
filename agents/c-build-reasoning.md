@@ -1,7 +1,7 @@
 ---
 description: Expert build systems and toolchain reviewer
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.0
 steps: 20
 color: accent

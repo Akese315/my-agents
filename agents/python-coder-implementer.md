@@ -1,7 +1,7 @@
 ---
 description: Expert Python Coder Implementer & Refactoring Agent
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.1
 steps: 20
 color: "success"

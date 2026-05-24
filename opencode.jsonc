@@ -30,10 +30,14 @@
         "apiKey": "", // Laisser vide si pas d'API key
       },
       "models": {
-        "GPT_OSS_120B": {
-          "name": "GPT-OSS-120B (vLLM)",
-          "id": "gpt-oss-120b",
+        "QWEN_3.6_A3B": {
+          "name": "qwen3-35b (VLLM)",
+          "id": "qwen3-35b",
           "tool_call": true,
+          "limit": {
+            "context": 131072,
+            "output": 64000,
+          },
         },
       },
     },

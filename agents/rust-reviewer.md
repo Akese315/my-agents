@@ -1,7 +1,7 @@
 ---
 description: Reviews Rust code for quality and best practices
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.0
 tools:
   write: false

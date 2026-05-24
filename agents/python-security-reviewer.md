@@ -1,7 +1,7 @@
 ---
 description: Expert Python Security Reviewer Agent (injections, secrets, dependencies, OWASP)
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.05
 steps: 15
 color: "#e01f56"

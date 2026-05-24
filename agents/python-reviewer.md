@@ -1,7 +1,7 @@
 ---
 description: Expert Python Code Reviewer Agent (style, correctness, idioms, maintainability)
 mode: subagent
-model: valmido/GPT_OSS_120B
+
 temperature: 0.1
 steps: 15
 color: "primary"

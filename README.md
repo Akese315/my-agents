@@ -21,7 +21,7 @@ C:\Users\<USER>\.config\opencode\
 
 Et remplacer le fichier opencode.jsonc du dossier précédent avec celui du repo
 
-## 2nd étape ## 
+## 2nd étape : ## 
 
 Par défaut, OpenCode possède 2 agents : 
 - Build
@@ -49,20 +49,20 @@ L'agent que j'ai créé s'appelle Orchestrator. Veuillez le sélectionner.
 | `python-test-engineer` | Python test writing & execution | "python tests", "pytest", "python coverage" |
 | `git-manager` | Git operations & commits | "git commit", "stage files", "version control" |
 
-# Installation de Understand-Anythin #
+# Installation de Understand-Anything #
 
 C'est un projet qui rassemble plusieurs agents permettant de créer des graphes de structure de projet
 
 Pour Windows : 
 
 ```sh
-iwr -useb https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.ps1 | iex
+    iwr -useb https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.ps1 | iex
 ```
 
-Pour Linux/MacOs
+Pour Linux/MacOs :
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash
-# or skip the prompt by passing the platform:
-curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash -s codex
+    curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash
+    # or skip the prompt by passing the platform:
+    curl -fsSL https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/install.sh | bash -s codex
 ```
