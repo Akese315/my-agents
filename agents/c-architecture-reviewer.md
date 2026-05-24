@@ -14,6 +14,7 @@ permission:
     "cat *": allow
     "find *": allow
     "ls *": allow
+    "tree *": allow
   webfetch: deny
   websearch: deny
 ---

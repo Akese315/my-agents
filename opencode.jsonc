@@ -1,5 +1,15 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "share": "disabled",
+  "plugin": [
+    "understand-anything@git+https://github.com/Lum1104/Understand-Anything.git",
+  ],
+  "tools": {
+    "skill": true,
+  },
+  "permission": {
+    "skill": { "*": "allow" },
+  },
   "default_agent": "orchestrator",
   "mcp": {
     "n8n-web": {
@@ -22,8 +32,8 @@
       "models": {
         "GPT_OSS_120B": {
           "name": "GPT-OSS-120B (vLLM)",
-          "id": "/models/GPT_OSS_120B_vLLM",
-          "contextLength": 32768, // Ajuste selon la limite de ton modèle
+          "id": "gpt-oss-120b",
+          "tool_call": true,
         },
       },
     },
